@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /* Make the image fully responsive */
+ .carousel-inner img {
+    width: 100%;
+    height: 100vh !important;
+  }
+  .all{
+      height: 100vh;
+  }
+  .first{
+      /* width:400px !important ; */
+      height:90vh !important;
+  }
+  @media(max-width:600px){
+    .all{
+        height: 200vh;
+    }
+    .bubble{
+        margin-top: 0.1em !important;
+    }
+  }
